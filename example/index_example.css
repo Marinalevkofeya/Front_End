@@ -1,0 +1,47 @@
+@import url("./_fonts.css");
+/** подключение*/
+@import url("./awesome.css");
+
+* {
+    margin: 0;
+    /** отступы*/
+    padding: 0;
+    /** поля*/
+    box-sizing: border-box;
+    /** подстраивает блок в размер с учетом полей, рамок*/
+    list-style: none;
+    /** маркеры списка*/
+    text-decoration: none;
+    /** подчеркивание ссылок*/
+}
+
+html {
+    font-family: "Open Sans", "Raleway", sans-serif;
+    /** шрифт основной = OS*/
+}
+
+button {
+    border: 0;
+    /** рамка*/
+    cursor: pointer;
+    /** курсор = рука*/
+    background-color: transparent;
+    /** фон = прозрачный*/
+}
+
+.container {
+    max-width: 1170px;
+    /** ширина*/
+    padding: 0 15px;
+    /** поле- В+Н Л+П*/
+    margin: auto;
+    /** отступ*/
+}
+
+.titel {
+    text-transform: uppercase;
+    /** текст = верхний регистр*/
+    text-align: center;
+    /** по горизонтали = центр*/
+    /* margin-bottom: 50px; */
+}
